@@ -30,7 +30,7 @@
 </head>
 
 <body>
-<div class="book">
+<div class="book without-summary">
 <div class="book-summary">
 
 {%- block search_button %}
@@ -77,7 +77,12 @@
 
 {%- endblock %}
 
+{%- if 'Steps Reference' in page.title or 'Transforming' in page.title %}
+  {% include "toc.html" %}
+{%- endif %}
+
 </section>
+
 
 {%- if 'search' in config['plugins'] %}
 </div> <!-- end of search-noresults -->
