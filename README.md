@@ -3,7 +3,7 @@
 [![Apache 2.0 License][apache-badge]](LICENSE)
 [![PyPI][pypi-badge]][pypi-ref]
 
-## Installation 
+## Installation
 
 First, install the package via PyPI:
 
