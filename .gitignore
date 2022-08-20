@@ -1,7 +1,0 @@
-*.pyc
-*.txt
-dist/
-build/
-*.egg-info/
-site/
-tmp/
